@@ -23,3 +23,9 @@ Lily58 is 6*4+4keys column-staggered split keyboard.
 - Lily58 Lite Rev1(Old)
   - [PCB Data](https://github.com/kata0510/Lily58/tree/master/pcb)
   - [BuildGuide](https://kata0510.github.io/Lily58-Document/Lily58_Lite_BG/)
+
+# QMK
+
+Compile `qmk compile -kb lily58 -km colemak-dh`
+
+Flash `qmk flash lily58_rev1_colemak-dh`
